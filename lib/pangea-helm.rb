@@ -4,6 +4,8 @@
 require 'pangea-core'
 require 'terraform-synthesizer'
 
+module Pangea; module Resources; module Helm; module Types; end; end; end; end
+
 # Helm resources
 require_relative 'pangea/resources/helm_release/resource'
 
